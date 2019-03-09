@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body,html {
+            padding: 0;
+            margin: 0;
+            min-width: 100%;
+            height: 100%;
+        }
+
+        .open-popup {
+            display: block;
+            width: 160px;
+            margin-bottom: 24px;
+            padding: 8px 16px;
+            font-size: 16px;
+            background: #ededed;
+            text-align: center;
+            -webkit-border-radius: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .close-popup {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 24px;
+            padding: 8px 16px;
+            font-size: 16px;
+            background: #FFFFFF;
+            color: #000000;
+            text-align: center;
+            -webkit-border-radius: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+        }
+
+        .center {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            color: #FFFFFF;
+            text-align: center;
+            overflow-y: scroll;
+        }
+
+        .center p {
+            height: 1000px;
+        }
+
+        .content {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 24px 24px 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup">
+        <div class="center">
+            <h2>A Simple Popup Window</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi praesentium illo reiciendis repellat porro excepturi, eum in consectetur doloremque quidem recusandae animi! Adipisci aut neque necessitatibus quod, unde, cupiditate minus quam ex exercitationem sit quaerat minima labore aliquam excepturi ratione quae facilis non reprehenderit suscipit incidunt accusamus, at blanditiis cum. Deserunt repellendus odit inventore. Laudantium a quos facilis consequatur minima delectus corrupti exercitationem enim eaque numquam, impedit minus eius non perspiciatis alias adipisci nobis esse! Temporibus veritatis voluptatum quidem, itaque, voluptatibus odit dolore labore, iste tempora pariatur laborum in nostrum qui quos possimus a magni doloribus dolores aperiam omnis corrupti facere eos. Laboriosam itaque ipsa facilis culpa officia vero quidem, fugiat fugit nihil! Beatae inventore laboriosam suscipit quasi ipsum, provident officiis delectus nobis dolorum fugit, possimus natus! Quod odit mollitia dolorum, hic dicta culpa non, earum ab vero ex qui consequuntur. Quia, quos? Totam minima, et asperiores itaque fuga nulla exercitationem corrupti id, cumque facilis autem consequuntur. Quasi modi nam, libero fuga nisi nesciunt, itaque placeat nulla, iste ipsa natus eum! Maiores incidunt pariatur dicta, odit non eligendi consequuntur mollitia itaque tempore minima quas tenetur sunt, corrupti sequi ipsam optio dolor autem veniam molestias ad libero ex a voluptate? Quam soluta cumque ipsum voluptate provident quo nisi rerum, facilis aliquid autem dolorum temporibus natus. Ratione error ex nihil distinctio molestiae laboriosam, aut cum minus vel sint assumenda maiores? Voluptatum officiis maiores suscipit, culpa aut facere obcaecati debitis ipsa atque eveniet officia necessitatibus sed beatae, maxime voluptas corrupti. Suscipit quia eveniet consequuntur eos dolores, ut minus cum nobis similique saepe, ipsam quos quibusdam nulla numquam aliquid, fuga ipsa veniam iure dicta consectetur at non nemo corrupti! Unde libero dolorem porro, dignissimos quod fugiat tempore fugit aspernatur voluptatibus ratione consequatur vel culpa itaque deserunt quisquam nostrum autem harum ipsum accusantium. Error porro sapiente architecto cupiditate dolorem, nostrum quos minus quasi mollitia debitis, iusto enim! Cum accusantium earum officiis eos aliquam vel ipsum quae obcaecati repellendus illo alias explicabo vero provident illum iure, molestias odit, exercitationem eum accusamus nam dolor praesentium voluptate. Incidunt dicta nulla quo dolor quaerat temporibus pariatur dolorum vel ad eaque nihil, nesciunt fugit porro dignissimos praesentium eligendi odio, tempore minima accusamus officia id asperiores modi necessitatibus voluptatem. Placeat asperiores nesciunt odit porro dolorum. Quod enim vitae magni. Illum, aliquam voluptate? Quibusdam labore sapiente libero, tenetur sequi error autem laudantium debitis deleniti odio excepturi mollitia odit adipisci doloribus iure aut magnam blanditiis, quas nulla rerum assumenda aperiam facilis distinctio? Quia officiis, facilis deleniti explicabo dolore odit nisi consectetur! Eaque architecto accusantium excepturi quia, reiciendis ex. Repellendus odit neque explicabo animi, numquam repellat quos. Mollitia soluta dignissimos tempora facilis, quos ipsam id temporibus beatae deleniti. Laudantium ea veritatis voluptate eveniet blanditiis omnis ab maiores quis asperiores reprehenderit illo, amet praesentium consectetur quos id vel beatae mollitia, delectus, dignissimos aspernatur sunt iste magni assumenda doloribus? Optio expedita atque perspiciatis saepe ullam id cupiditate voluptatem reiciendis aperiam architecto, repellat ad nisi provident, eius vitae. Soluta distinctio facilis porro nobis pariatur nesciunt veniam vero esse. Accusamus, sed sequi quia minus consequatur error est aliquam minima fugiat itaque aperiam omnis voluptatibus et, cupiditate numquam facilis a necessitatibus dicta reiciendis officiis animi qui ad! Dolores quae, deleniti et repellendus numquam iste sit error totam impedit laboriosam rerum illum asperiores excepturi animi velit, tempore saepe? Impedit ut consectetur iusto quibusdam dolorem beatae, porro doloremque, cum molestias sed modi sapiente laudantium libero? Vitae reiciendis, sunt ea inventore esse eligendi laudantium tenetur. Asperiores expedita quas cumque, numquam magni laboriosam hic ratione dignissimos eum iste ex eveniet odit commodi, quibusdam laudantium porro cupiditate alias totam. Maiores reiciendis deleniti pariatur quaerat qui rem distinctio dolor, culpa perferendis aspernatur atque quia animi, quod dolores fugit! Nisi perferendis nemo, consectetur ex ipsum suscipit cum! Odit atque, nostrum doloribus voluptates ducimus praesentium iure neque maiores delectus rerum tenetur beatae vel libero est quas. Neque eius repudiandae odio? Debitis, alias. Delectus officia minus incidunt tempora atque quae repudiandae assumenda deserunt, nemo, perferendis dignissimos sunt quas optio debitis autem. Dolore, quae consequatur voluptas officiis ab tempora sint ex rerum at cum amet illum, fugit alias provident odio hic beatae facere, ut qui rem iure! Asperiores corporis dolore mollitia ipsum repellat porro accusamus suscipit, consequuntur, in, cum quo! Odio ipsa labore reprehenderit mollitia architecto perferendis iusto earum perspiciatis! Fugiat exercitationem vitae modi quo laborum tempore sint mollitia reiciendis rem saepe reprehenderit iure, nesciunt itaque quaerat, autem debitis libero obcaecati provident maiores ratione! Minus ipsum, vero minima magni quae autem tenetur ea suscipit ab culpa exercitationem, ut provident veritatis corporis quidem explicabo maxime eligendi. Repellendus commodi animi, dolorum deleniti velit aspernatur iste corrupti beatae vel perspiciatis saepe, esse dicta ducimus accusantium qui id aut iure. Ea voluptatibus aperiam illo vero neque amet dicta unde perferendis vel ab itaque excepturi officiis, rem facilis qui saepe totam nobis reiciendis voluptatum et facere commodi dolorem in odit. Inventore ut iure excepturi. Quo deleniti ipsum voluptas odio dolores asperiores, fugit totam! Asperiores dolorem ipsa aperiam quos molestias quas ex labore at reprehenderit quibusdam voluptatibus perferendis tempora sunt enim voluptate harum perspiciatis, accusamus aliquid voluptas a. Quibusdam ex sequi dolorem libero nobis. Debitis amet molestiae, consequuntur dolor voluptates dolore pariatur officia error itaque iure, possimus voluptatibus aliquam, minus quam libero aperiam deserunt ab! Nisi asperiores enim, dignissimos consequatur id officiis voluptatum expedita pariatur eos minima error eius dolorum! Iusto nulla, illo nobis dolorum soluta dignissimos accusantium atque, ea alias asperiores obcaecati perferendis natus impedit ipsa sunt quae in id necessitatibus expedita itaque assumenda explicabo nesciunt quo neque. Ea illum odit nesciunt in impedit reiciendis explicabo, eaque voluptates expedita autem, iste ullam nulla deleniti commodi ipsa esse ducimus libero labore aut vitae, voluptatibus aliquam quis provident maiores? Voluptatem modi consectetur quae, autem, delectus officiis voluptate quibusdam in molestiae non velit itaque alias rem enim aliquam! Maiores excepturi et repellat animi, beatae esse iure aperiam, maxime sequi dolor corporis hic doloremque exercitationem illo! Molestias repellat tempore ut voluptatem accusamus. Facere, eum, rerum temporibus saepe corrupti illo, aut impedit expedita quae tempora dignissimos cum! Autem, rerum.</p>
+            <a class="close-popup">Close Popup</a>
+        </div>
+    </div>
+    
+    <!-- Content For Scrolling -->
+    
+    <div class="content">
+    
+        <h1>Disable window scroll when any popup is open/active</h1>
+        <h2>Using Jquery, JavaScript, HTML, CSS</h2>
+    
+        <!-- Open Popup Button -->
+    
+        <a class="open-popup">Open Simple Popup</a>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean magna sem, ullamcorper sollicitudin eros eu,
+            molestie aliquam enim. Donec eros enim, faucibus at mattis vitae, ultrices sit amet felis. Morbi ullamcorper
+            fermentum elit, quis lobortis lacus ultrices sit amet. In hac habitasse platea dictumst. Vestibulum eget quam
+            in sapien pharetra pharetra. Fusce consectetur, leo eget tristique malesuada, ipsum mi imperdiet tellus, id
+            dapibus nulla ipsum vitae erat. Proin tempor pretium arcu vehicula auctor. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas. Donec euismod pulvinar arcu in ultricies.
+            Praesent auctor nisl vel dui malesuada vehicula. Maecenas faucibus facilisis diam, a auctor tortor congue eu.
+            Donec felis tellus, eleifend sed cursus ut, sollicitudin at nulla. Praesent feugiat convallis tempus.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce placerat quam
+            ipsum, at dapibus orci convallis a. Praesent eget augue ipsum.</p>
+        <p>Ut sed neque ultrices, feugiat nisi quis, aliquet mauris. Aliquam condimentum quam vitae dapibus pulvinar. Morbi
+            dolor tellus, mollis non risus vel, pharetra aliquet enim. Sed malesuada erat nec turpis efficitur sodales.
+            Integer lobortis urna quis venenatis dictum. Nulla aliquam tempor diam, sed malesuada quam tristique quis.
+            Nulla eget leo iaculis, mollis quam eget, venenatis nulla. Quisque sagittis fermentum est vitae auctor. Sed
+            gravida tempor ornare. Phasellus bibendum nisl at odio varius euismod. In nec elementum elit. Curabitur in
+            vehicula odio, eget mattis est. Curabitur interdum lorem vitae ornare eleifend. Maecenas vitae mollis erat,
+            vitae vulputate quam. Sed sit amet imperdiet mi.</p>
+        <p>Curabitur leo nulla, suscipit lobortis porta sed, porta eget enim. Nulla venenatis justo sed elit faucibus
+            rhoncus. Vivamus sodales fringilla eros eget malesuada. Aliquam condimentum erat ut orci pellentesque placerat.
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas scelerisque
+            magna at purus pulvinar, id placerat mauris blandit. Nam elit nisl, venenatis sed imperdiet ut, porttitor at
+            massa. Nam id orci ac urna sollicitudin semper.</p>
+    
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script>
+    $(document).ready(function () {
+            stopScroll = 0;
+        });
+
+        $(document).on('click', '.open-popup', function () {
+
+            stopScroll = 1;
+            stopWindowScrollPosition = $(window).scrollTop();
+            $('.popup').fadeIn(300);
+            $('body').css({
+                'overflow': 'hidden',
+            })
+
+        });
+
+        $(document).on('click', '.close-popup', function () {
+
+            stopScroll = 0;
+            $('body').css({
+                'overflow': '',
+            })
+            $('.popup').fadeOut(300);
+
+        });
+
+        $(window).scroll(function () {
+
+            if (stopScroll == 1) {
+                console.log(stopWindowScrollPosition)
+                $(window).scrollTop(stopWindowScrollPosition);
+            }
+
+        });
+    </script>
+</body>
+</html>
