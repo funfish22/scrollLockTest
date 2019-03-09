@@ -128,9 +128,10 @@
             stopScroll = 1;
             stopWindowScrollPosition = $(window).scrollTop();
             $('.popup').fadeIn(300);
+            $('.popup').animate({ scrollTop: 0 }, 0);
             $('body').css({
                 'overflow': 'hidden',
-            })
+            }) 
 
         });
 
